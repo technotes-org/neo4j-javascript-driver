@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import Integer, { int } from '../src/integer'
-import { isPoint, Point } from '../src/spatial-types'
+import Integer, { int } from '../src/integer.ts'
+import { isPoint, Point } from '../src/spatial-types.ts'
 
 const WGS_84_2D_CRS_CODE: Integer = int(4326)
 const CARTESIAN_2D_CRS_CODE: Integer = int(7203)

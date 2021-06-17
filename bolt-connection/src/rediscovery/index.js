@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import Rediscovery from './rediscovery'
-import RoutingTable from './routing-table'
+import Rediscovery from './rediscovery.js'
+import RoutingTable from './routing-table.js'
 
 export default Rediscovery
 export { Rediscovery, RoutingTable }

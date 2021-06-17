@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import { BaseBuffer } from '../buf'
-import { alloc } from './node'
+import { BaseBuffer } from '../buf/index.js'
+import { alloc } from './browser/index.js'
 
 /**
  * Buffer that combines multiple buffers, exposing them as one single buffer.

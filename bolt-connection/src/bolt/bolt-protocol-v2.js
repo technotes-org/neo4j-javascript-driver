@@ -16,8 +16,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import BoltProtocolV1 from './bolt-protocol-v1'
-import v2 from '../packstream'
+import BoltProtocolV1 from './bolt-protocol-v1.js'
+import v2 from '../packstream/index.js'
 import { internal } from 'neo4j-driver-core'
 
 const {

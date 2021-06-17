@@ -16,9 +16,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { assertNumber, assertNumberOrInteger } from './internal/util'
-import { NumberOrInteger } from './graph-types'
-import Integer from './integer'
+import { assertNumber, assertNumberOrInteger } from './internal/util.ts'
+import { NumberOrInteger } from './graph-types.ts'
+import Integer from './integer.ts'
 
 const POINT_IDENTIFIER_PROPERTY = '__isPoint__'
 

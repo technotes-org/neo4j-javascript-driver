@@ -16,15 +16,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import BoltProtocolV2 from './bolt-protocol-v2'
-import RequestMessage from './request-message'
-import { assertDatabaseIsEmpty } from './bolt-protocol-util'
+import BoltProtocolV2 from './bolt-protocol-v2.js'
+import RequestMessage from './request-message.js'
+import { assertDatabaseIsEmpty } from './bolt-protocol-util.js'
 import {
   StreamObserver,
   LoginObserver,
   ResultStreamObserver,
   ProcedureRouteObserver
-} from './stream-observers'
+} from './stream-observers.js'
 import { internal } from 'neo4j-driver-core'
 
 const {

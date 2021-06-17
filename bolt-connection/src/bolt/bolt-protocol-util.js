@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 import { newError } from 'neo4j-driver-core'
-import { ResultStreamObserver } from './stream-observers'
+import { ResultStreamObserver } from './stream-observers.js'
 
 /**
  * @param {TxConfig} txConfig the auto-commit transaction configuration.

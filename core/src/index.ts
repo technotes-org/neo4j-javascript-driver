@@ -23,8 +23,8 @@ import {
   PROTOCOL_ERROR,
   SERVICE_UNAVAILABLE,
   SESSION_EXPIRED
-} from './error'
-import Integer, { int, isInt, inSafeRange, toNumber, toString } from './integer'
+} from './error.ts'
+import Integer, { int, isInt, inSafeRange, toNumber, toString } from './integer.ts'
 import {
   Date,
   DateTime,
@@ -38,7 +38,7 @@ import {
   LocalDateTime,
   LocalTime,
   Time
-} from './temporal-types'
+} from './temporal-types.ts'
 import {
   StandardDate,
   NumberOrInteger,
@@ -52,9 +52,9 @@ import {
   isPath,
   PathSegment,
   isPathSegment
-} from './graph-types'
-import Record from './record'
-import { isPoint, Point } from './spatial-types'
+} from './graph-types.ts'
+import Record from './record.ts'
+import { isPoint, Point } from './spatial-types.ts'
 import ResultSummary, {
   queryType,
   ServerInfo,
@@ -64,16 +64,16 @@ import ResultSummary, {
   ProfiledPlan,
   QueryStatistics,
   Stats
-} from './result-summary'
-import Result, { QueryResult, ResultObserver } from './result'
-import ConnectionProvider from './connection-provider'
-import Connection from './connection'
-import Transaction from './transaction'
-import Session, { TransactionConfig } from './session'
-import Driver, * as driver from './driver'
-import * as types from './types'
-import * as json from './json'
-import * as internal from './internal' // todo: removed afterwards
+} from './result-summary.ts'
+import Result, { QueryResult, ResultObserver } from './result.ts'
+import ConnectionProvider from './connection-provider.ts'
+import Connection from './connection.ts'
+import Transaction from './transaction.ts'
+import Session, { TransactionConfig } from './session.ts'
+import Driver, * as driver from './driver.ts'
+import * as types from './types.ts'
+import * as json from './json.ts'
+import * as internal from './internal/index.ts' // todo: removed afterwards
 
 /**
  * Object containing string constants representing predefined {@link Neo4jError} codes.

@@ -18,16 +18,16 @@
  */
 
 import { newError, error, int, Session, internal } from 'neo4j-driver-core'
-import Rediscovery, { RoutingTable } from '../rediscovery'
-import { HostNameResolver } from '../channel'
-import SingleConnectionProvider from './connection-provider-single'
-import PooledConnectionProvider from './connection-provider-pooled'
-import { LeastConnectedLoadBalancingStrategy } from '../load-balancing'
+import Rediscovery, { RoutingTable } from '../rediscovery/index.js'
+import { HostNameResolver } from '../channel/index.js'
+import SingleConnectionProvider from './connection-provider-single.js'
+import PooledConnectionProvider from './connection-provider-pooled.js'
+import { LeastConnectedLoadBalancingStrategy } from '../load-balancing/index.js'
 import {
   createChannelConnection,
   ConnectionErrorHandler,
   DelegateConnection
-} from '../connection'
+} from '../connection/index.js'
 
 const { SERVICE_UNAVAILABLE, SESSION_EXPIRED } = error
 const {

@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { ServerInfo } from '../src/result-summary'
+import { ServerInfo } from '../src/result-summary.ts'
 
 describe('ServerInfo', () => {
   it.each([

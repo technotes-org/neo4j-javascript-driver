@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { ServerAddress } from '../server-address'
+import { ServerAddress } from '../server-address.ts'
 
 export default class BaseHostNameResolver {
   resolve (): Promise<ServerAddress[]> {

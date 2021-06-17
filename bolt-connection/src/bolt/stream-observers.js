@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 import { newError, error, Integer, Record, json } from 'neo4j-driver-core'
-import { ALL } from './request-message'
-import RawRoutingTable from './routing-table-raw'
+import { ALL } from './request-message.js'
+import RawRoutingTable from './routing-table-raw.js'
 
 const { PROTOCOL_ERROR } = error
 class StreamObserver {

@@ -16,12 +16,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import handshake from './handshake'
-import create from './create'
-import _BoltProtocol from './bolt-protocol-v4x3'
-import _RawRoutingTable from './routing-table-raw'
+import handshake from './handshake.js'
+import create from './create.js'
+import _BoltProtocol from './bolt-protocol-v4x3.js'
+import _RawRoutingTable from './routing-table-raw.js'
 
-export * from './stream-observers'
+export * from './stream-observers.js'
 
 export const BoltProtocol = _BoltProtocol
 export const RawRoutingTable = _RawRoutingTable

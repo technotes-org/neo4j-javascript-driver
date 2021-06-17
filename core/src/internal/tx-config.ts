@@ -17,9 +17,9 @@
  * limitations under the License.
  */
 
-import * as util from './util'
-import { newError } from '../error'
-import Integer, { int } from '../integer'
+import * as util from './util.ts'
+import { newError } from '../error.ts'
+import Integer, { int } from '../integer.ts'
 
 /**
  * Internal holder of the transaction configuration.

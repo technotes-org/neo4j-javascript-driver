@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { newError } from './error'
+import { newError } from './error.ts'
 
 type Dict<Key extends PropertyKey = PropertyKey, Value = any> = {
   [K in Key]: Value

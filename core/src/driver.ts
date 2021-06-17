@@ -17,10 +17,10 @@
  * limitations under the License.
  */
 
-import ConnectionProvider from './connection-provider'
-import { Bookmark } from './internal/bookmark'
-import { ConnectivityVerifier } from './internal/connectivity-verifier'
-import ConfiguredCustomResolver from './internal/resolver/configured-custom-resolver'
+import ConnectionProvider from './connection-provider.ts'
+import { Bookmark } from './internal/bookmark.ts'
+import { ConnectivityVerifier } from './internal/connectivity-verifier.ts'
+import ConfiguredCustomResolver from './internal/resolver/configured-custom-resolver.ts'
 
 import {
   ACCESS_MODE_READ,
@@ -28,18 +28,18 @@ import {
   FETCH_ALL,
   DEFAULT_POOL_ACQUISITION_TIMEOUT,
   DEFAULT_POOL_MAX_SIZE
-} from './internal/constants'
-import { Logger } from './internal/logger'
-import Session from './session'
-import { ServerInfo } from './result-summary'
-import { ENCRYPTION_ON, ENCRYPTION_OFF } from './internal/util'
+} from './internal/constants.ts'
+import { Logger } from './internal/logger.ts'
+import Session from './session.ts'
+import { ServerInfo } from './result-summary.ts'
+import { ENCRYPTION_ON, ENCRYPTION_OFF } from './internal/util.ts'
 import {
   EncryptionLevel,
   LoggingConfig,
   TrustStrategy,
   SessionMode
-} from './types'
-import { ServerAddress } from './internal/server-address'
+} from './types.ts'
+import { ServerAddress } from './internal/server-address.ts'
 
 const DEFAULT_MAX_CONNECTION_LIFETIME: number = 60 * 60 * 1000 // 1 hour
 

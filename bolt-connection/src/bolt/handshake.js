@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { alloc } from '../channel'
+import { alloc } from '../channel/index.js'
 import { newError } from 'neo4j-driver-core'
 
 const BOLT_MAGIC_PREAMBLE = 0x6060b017

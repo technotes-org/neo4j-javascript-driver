@@ -19,16 +19,16 @@
 import {
   assertDatabaseIsEmpty,
   assertTxConfigIsEmpty
-} from './bolt-protocol-util'
-import { Chunker } from '../chunking'
-import { v1 } from '../packstream'
-import RequestMessage from './request-message'
+} from './bolt-protocol-util.js'
+import { Chunker } from '../channel/chunking.js'
+import { v1 } from '../packstream/index.js'
+import RequestMessage from './request-message.js'
 import {
   LoginObserver,
   ResetObserver,
   ResultStreamObserver,
   StreamObserver
-} from './stream-observers'
+} from './stream-observers.js'
 import { internal } from 'neo4j-driver-core'
 
 const {

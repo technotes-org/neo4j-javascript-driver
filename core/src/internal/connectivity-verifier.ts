@@ -17,11 +17,11 @@
  * limitations under the License.
  */
 
-import { ConnectionHolder } from './connection-holder'
-import ConnectionProvider from '../connection-provider'
-import { ACCESS_MODE_READ } from './constants'
-import { newError } from '../error'
-import { ServerInfo } from '../result-summary'
+import { ConnectionHolder } from './connection-holder.ts'
+import ConnectionProvider from '../connection-provider.ts'
+import { ACCESS_MODE_READ } from './constants.ts'
+import { newError } from '../error.ts'
+import { ServerInfo } from '../result-summary.ts'
 
 /**
  * Verifies connectivity using the given connection provider.

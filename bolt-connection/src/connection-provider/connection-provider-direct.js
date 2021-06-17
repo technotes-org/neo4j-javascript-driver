@@ -17,12 +17,12 @@
  * limitations under the License.
  */
 
-import PooledConnectionProvider from './connection-provider-pooled'
+import PooledConnectionProvider from './connection-provider-pooled.js'
 import {
   createChannelConnection,
   DelegateConnection,
   ConnectionErrorHandler
-} from '../connection'
+} from '../connection/index.js'
 import { internal, error } from 'neo4j-driver-core'
 
 const {

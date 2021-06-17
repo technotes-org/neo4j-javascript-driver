@@ -21,7 +21,7 @@
 // https://github.com/dcodeIO/Long.js
 // License Apache 2
 
-import { newError } from './error'
+import { newError } from './error.ts'
 
 /**
  * A cache of the Integer representations of small integer values.

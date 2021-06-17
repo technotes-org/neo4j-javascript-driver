@@ -17,9 +17,9 @@
  * limitations under the License.
  */
 
-import { newError } from '../error'
-import Transaction from '../transaction'
-import { canRetryOn } from './retry-strategy'
+import { newError } from '../error.ts'
+import Transaction from '../transaction.ts'
+import { canRetryOn } from './retry-strategy.ts'
 
 const DEFAULT_MAX_RETRY_TIME_MS = 30 * 1000 // 30 seconds
 const DEFAULT_INITIAL_RETRY_DELAY_MS = 1000 // 1 seconds

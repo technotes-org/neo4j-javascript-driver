@@ -22,7 +22,7 @@ import {
   PROTOCOL_ERROR,
   SERVICE_UNAVAILABLE,
   SESSION_EXPIRED
-} from '../src/error'
+} from '../src/error.ts'
 
 describe('newError', () => {
   ;[PROTOCOL_ERROR, SERVICE_UNAVAILABLE, SESSION_EXPIRED].forEach(

@@ -16,8 +16,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import RoutingTable from './routing-table'
-import { RawRoutingTable } from '../bolt'
+import RoutingTable from './routing-table.js'
+import { RawRoutingTable } from '../bolt/index.js'
 import { newError, error, Session, ServerAddress } from 'neo4j-driver-core'
 
 const { SERVICE_UNAVAILABLE } = error

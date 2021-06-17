@@ -16,8 +16,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import RoundRobinArrayIndex from './round-robin-array-index'
-import LoadBalancingStrategy from './load-balancing-strategy'
+import RoundRobinArrayIndex from './round-robin-array-index.js'
+import LoadBalancingStrategy from './load-balancing-strategy.js'
 
 export default class LeastConnectedLoadBalancingStrategy extends LoadBalancingStrategy {
   /**

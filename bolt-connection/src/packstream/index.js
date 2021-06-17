@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import * as v1 from './packstream-v1'
-import * as v2 from './packstream-v2'
+import * as v1 from './packstream-v1.js'
+import * as v2 from './packstream-v2.js'
 
 export { v1, v2 }
 

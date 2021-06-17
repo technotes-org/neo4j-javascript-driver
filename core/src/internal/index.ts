@@ -17,20 +17,20 @@
  * limitations under the License.
  */
 
-import * as util from './util'
-import * as temporalUtil from './temporal-util'
-import * as observer from './observers'
-import * as bookmark from './bookmark'
-import * as constants from './constants'
-import * as connectionHolder from './connection-holder'
-import * as txConfig from './tx-config'
-import * as transactionExecutor from './transaction-executor'
-import * as connectivityVerifier from './connectivity-verifier'
-import * as logger from './logger'
-import * as urlUtil from './url-util'
-import * as serverAddress from './server-address'
-import * as resolver from './resolver'
-import * as retryStrategy from './retry-strategy'
+import * as util from './util.ts'
+import * as temporalUtil from './temporal-util.ts'
+import * as observer from './observers.ts'
+import * as bookmark from './bookmark.ts'
+import * as constants from './constants.ts'
+import * as connectionHolder from './connection-holder.ts'
+import * as txConfig from './tx-config.ts'
+import * as transactionExecutor from './transaction-executor.ts'
+import * as connectivityVerifier from './connectivity-verifier.ts'
+import * as logger from './logger.ts'
+import * as urlUtil from './url-util.ts'
+import * as serverAddress from './server-address.ts'
+import * as resolver from './resolver/index.ts'
+import * as retryStrategy from './retry-strategy.ts'
 
 export {
   util,

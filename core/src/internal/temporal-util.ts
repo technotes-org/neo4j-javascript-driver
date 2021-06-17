@@ -17,10 +17,10 @@
  * limitations under the License.
  */
 
-import Integer, { int, isInt } from '../integer'
-import { newError } from '../error'
-import { assertNumberOrInteger } from './util'
-import { NumberOrInteger } from '../graph-types'
+import Integer, { int, isInt } from '../integer.ts'
+import { newError } from '../error.ts'
+import { assertNumberOrInteger } from './util.ts'
+import { NumberOrInteger } from '../graph-types.ts'
 
 /*
   Code in this util should be compatible with code in the database that uses JSR-310 java.time APIs.

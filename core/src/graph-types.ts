@@ -16,8 +16,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import Integer from './integer'
-import { stringify } from './json'
+import Integer from './integer.ts'
+import { stringify } from './json.ts'
 
 type StandardDate = Date
 type NumberOrInteger = number | Integer | bigint

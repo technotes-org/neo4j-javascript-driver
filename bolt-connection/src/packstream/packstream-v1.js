@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { utf8 } from '../channel'
+import { utf8 } from '../channel/index.js'
 import {
   newError,
   error,

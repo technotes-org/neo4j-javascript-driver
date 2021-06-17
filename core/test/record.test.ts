@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import { newError } from '../src'
-import Record from '../src/record'
+import { newError } from '../src.ts'
+import Record from '../src/record.ts'
 
 describe('Record', () => {
   it('should allow getting fields by name', () => {

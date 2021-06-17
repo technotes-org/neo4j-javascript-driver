@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import BoltProtocolV41 from './bolt-protocol-v4x1'
+import BoltProtocolV41 from './bolt-protocol-v4x1.js'
 
 import { internal } from 'neo4j-driver-core'
 

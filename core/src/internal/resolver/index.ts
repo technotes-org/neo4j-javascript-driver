@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import BaseHostNameResolver from './base-host-name-resolver'
-import ConfiguredCustomResolver from './configured-custom-resolver'
+import BaseHostNameResolver from './base-host-name-resolver.ts'
+import ConfiguredCustomResolver from './configured-custom-resolver.ts'
 
 export { BaseHostNameResolver, ConfiguredCustomResolver }

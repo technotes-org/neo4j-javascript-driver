@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import Connection from './connection'
+import Connection from './connection.js'
 
 export default class DelegateConnection extends Connection {
   /**

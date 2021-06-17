@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { ServerAddress } from '../server-address'
+import { ServerAddress } from '../server-address.ts'
 
 function resolveToSelf(address: ServerAddress) {
   return Promise.resolve([address])

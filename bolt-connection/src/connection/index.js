@@ -17,12 +17,12 @@
  * limitations under the License.
  */
 
-import Connection from './connection'
+import Connection from './connection.js'
 import ChannelConnection, {
   createChannelConnection
-} from './connection-channel'
-import DelegateConnection from './connection-delegate'
-import ConnectionErrorHandler from './connection-error-handler'
+} from './connection-channel.js'
+import DelegateConnection from './connection-delegate.js'
+import ConnectionErrorHandler from './connection-error-handler.js'
 
 export default Connection
 export {

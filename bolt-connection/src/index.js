@@ -17,11 +17,11 @@
  * limitations under the License.
  */
 
-export * as loadBalancing from './load-balancing'
-export * as bolt from './bolt'
-export * as buf from './buf'
-export * as channel from './channel'
-export * as packstream from './packstream'
-export * as pool from './pool'
+export * as loadBalancing from './load-balancing/index.js'
+export * as bolt from './bolt/index.js'
+export * as buf from './buf/index.js'
+export * as channel from './channel/index.js'
+export * as packstream from './packstream/index.js'
+export * as pool from './pool/index.js'
 
-export * from './connection-provider'
+export * from './connection-provider/index.js'

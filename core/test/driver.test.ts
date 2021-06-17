@@ -16,10 +16,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { ConnectionProvider, newError } from '../src'
-import Driver from '../src/driver'
-import { Logger } from '../src/internal/logger'
-import { ConfiguredCustomResolver } from '../src/internal/resolver'
+import { ConnectionProvider, newError } from '../src.ts'
+import Driver from '../src/driver.ts'
+import { Logger } from '../src/internal/logger.ts'
+import { ConfiguredCustomResolver } from '../src/internal/resolver.ts'
 
 describe('Driver', () => {
   let driver: Driver | null

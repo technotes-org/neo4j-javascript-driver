@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import * as util from './util'
+import * as util from './util.ts'
 
 const BOOKMARKS_KEY = 'bookmarks'
 

@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import * as v1 from './packstream-v1'
+import * as v1 from './packstream-v1.js'
 import {
   int,
   isInt,
@@ -39,7 +39,7 @@ import {
   epochDayToDate,
   epochSecondAndNanoToLocalDateTime,
   nanoOfDayToLocalTime
-} from './temporal-factory'
+} from './temporal-factory.js'
 
 const {
   temporalUtil: {

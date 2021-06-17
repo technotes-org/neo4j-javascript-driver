@@ -16,25 +16,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { validateQueryAndParameters } from './internal/util'
-import Connection from './connection'
+import { validateQueryAndParameters } from './internal/util.ts'
+import Connection from './connection.ts'
 import {
   ConnectionHolder,
   ReadOnlyConnectionHolder,
   EMPTY_CONNECTION_HOLDER
-} from './internal/connection-holder'
-import { Bookmark } from './internal/bookmark'
-import { TxConfig } from './internal/tx-config'
+} from './internal/connection-holder.ts'
+import { Bookmark } from './internal/bookmark.ts'
+import { TxConfig } from './internal/tx-config.ts'
 
 import {
   ResultStreamObserver,
   FailedObserver,
   CompletedObserver
-} from './internal/observers'
+} from './internal/observers.ts'
 
-import { newError } from './error'
-import Result from './result'
-import { Query } from './types'
+import { newError } from './error.ts'
+import Result from './result.ts'
+import { Query } from './types.ts'
 
 /**
  * Represents a transaction in the Neo4j database.

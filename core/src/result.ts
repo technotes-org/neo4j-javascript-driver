@@ -17,10 +17,10 @@
  * limitations under the License.
  */
 
-import ResultSummary from './result-summary'
-import Record from './record'
-import { Query } from './types'
-import { observer, util, connectionHolder } from './internal'
+import ResultSummary from './result-summary.ts'
+import Record from './record.ts'
+import { Query } from './types.ts'
+import { observer, util, connectionHolder } from './internal/index.ts'
 
 const { EMPTY_CONNECTION_HOLDER } = connectionHolder
 

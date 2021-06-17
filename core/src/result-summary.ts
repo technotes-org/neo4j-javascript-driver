@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import Integer, { int } from './integer'
-import { NumberOrInteger } from './graph-types'
+import Integer, { int } from './integer.ts'
+import { NumberOrInteger } from './graph-types.ts'
 
 /**
  * A ResultSummary instance contains structured metadata for a {@link Result}.

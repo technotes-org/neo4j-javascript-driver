@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import Connection from './connection'
-import { bookmark } from './internal'
+import Connection from './connection.ts'
+import { bookmark } from './internal/index.ts'
 
 /**
  * Inteface define a common way to acquire a connection

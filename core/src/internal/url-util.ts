@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { assertString } from './util'
+import { assertString } from './util.ts'
 
 const DEFAULT_BOLT_PORT = 7687
 const DEFAULT_HTTP_PORT = 7474

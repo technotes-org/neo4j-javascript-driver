@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import BaseBuffer from '../../buf'
+import BaseBuffer from '../../buf/index.js'
 
 export default class HeapBuffer extends BaseBuffer {
   constructor (arg) {

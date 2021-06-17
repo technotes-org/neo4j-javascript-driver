@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { Neo4jError, SERVICE_UNAVAILABLE, SESSION_EXPIRED } from '../error'
+import { Neo4jError, SERVICE_UNAVAILABLE, SESSION_EXPIRED } from '../error.ts'
 
 /**
  * Verified error and returns if it could be retried or not

@@ -22,8 +22,8 @@ import Integer, {
   toNumber,
   toString,
   inSafeRange
-} from '../src/integer'
-import { newError } from '../src/error'
+} from '../src/integer.ts'
+import { newError } from '../src/error.ts'
 
 describe('Integer', () => {
   forEachToNumberOrInfinityScenarios(({ input, expectedOutput }) =>

@@ -16,20 +16,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { ResultStreamObserver, FailedObserver } from './internal/observers'
-import { validateQueryAndParameters } from './internal/util'
-import { newError } from './error'
-import Result from './result'
-import Transaction from './transaction'
-import { ConnectionHolder } from './internal/connection-holder'
-import { ACCESS_MODE_READ, ACCESS_MODE_WRITE } from './internal/constants'
-import { TransactionExecutor } from './internal/transaction-executor'
-import { Bookmark } from './internal/bookmark'
-import { TxConfig } from './internal/tx-config'
-import ConnectionProvider from './connection-provider'
-import { Query, SessionMode } from './types'
-import Connection from './connection'
-import { NumberOrInteger } from './graph-types'
+import { ResultStreamObserver, FailedObserver } from './internal/observers.ts'
+import { validateQueryAndParameters } from './internal/util.ts'
+import { newError } from './error.ts'
+import Result from './result.ts'
+import Transaction from './transaction.ts'
+import { ConnectionHolder } from './internal/connection-holder.ts'
+import { ACCESS_MODE_READ, ACCESS_MODE_WRITE } from './internal/constants.ts'
+import { TransactionExecutor } from './internal/transaction-executor.ts'
+import { Bookmark } from './internal/bookmark.ts'
+import { TxConfig } from './internal/tx-config.ts'
+import ConnectionProvider from './connection-provider.ts'
+import { Query, SessionMode } from './types.ts'
+import Connection from './connection.ts'
+import { NumberOrInteger } from './graph-types.ts'
 
 type ConnectionConsumer = (connection: Connection | void) => any | undefined
 type TransactionWork<T> = (tx: Transaction) => Promise<T> | T

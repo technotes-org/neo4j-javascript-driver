@@ -17,10 +17,10 @@
  * limitations under the License.
  */
 
-import { Chunker, Dechunker, ChannelConfig, Channel } from '../channel'
+import { Chunker, Dechunker, ChannelConfig, Channel } from '../channel/index.js'
 import { newError, error, json, internal } from 'neo4j-driver-core'
-import Connection from './connection'
-import Bolt from '../bolt'
+import Connection from './connection.js'
+import Bolt from '../bolt/index.js'
 
 const { PROTOCOL_ERROR } = error
 const {

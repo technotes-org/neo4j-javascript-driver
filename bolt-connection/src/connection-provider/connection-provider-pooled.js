@@ -17,8 +17,8 @@
  * limitations under the License.
  */
 
-import { createChannelConnection, ConnectionErrorHandler } from '../connection'
-import Pool, { PoolConfig } from '../pool'
+import { createChannelConnection, ConnectionErrorHandler } from '../connection/index.js'
+import Pool, { PoolConfig } from '../pool/index.js'
 import { error, ConnectionProvider } from 'neo4j-driver-core'
 
 const { SERVICE_UNAVAILABLE } = error

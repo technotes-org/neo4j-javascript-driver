@@ -17,10 +17,10 @@
  * limitations under the License.
  */
 
-import Integer, { isInt } from '../integer'
-import { NumberOrInteger } from '../graph-types'
-import { EncryptionLevel } from '../types'
-import { stringify } from '../json'
+import Integer, { isInt } from '../integer.ts'
+import { NumberOrInteger } from '../graph-types.ts'
+import { EncryptionLevel } from '../types.ts'
+import { stringify } from '../json.ts'
 
 const ENCRYPTION_ON: EncryptionLevel = 'ENCRYPTION_ON'
 const ENCRYPTION_OFF: EncryptionLevel = 'ENCRYPTION_OFF'

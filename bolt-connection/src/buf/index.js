@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import BaseBuffer from './base-buf'
+import BaseBuffer from './base-buf.js'
 
 export default BaseBuffer
 export { BaseBuffer }

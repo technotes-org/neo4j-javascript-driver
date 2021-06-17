@@ -16,16 +16,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { observer, connectionHolder } from '../src/internal'
+import { observer, connectionHolder } from '../src/internal.ts'
 import {
   Connection,
   newError,
   Record,
   ResultObserver,
   ResultSummary
-} from '../src'
+} from '../src.ts'
 
-import Result from '../src/result'
+import Result from '../src/result.ts'
 
 describe('Result', () => {
   const expectedError = newError('some error')

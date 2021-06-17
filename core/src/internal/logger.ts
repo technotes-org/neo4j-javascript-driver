@@ -16,8 +16,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { newError } from '../error'
-import { LogLevel, LoggerFunction, LoggingConfig } from '../types'
+import { newError } from '../error.ts'
+import { LogLevel, LoggerFunction, LoggingConfig } from '../types.ts'
 
 const ERROR: 'error' = 'error'
 const WARN: 'warn' = 'warn'

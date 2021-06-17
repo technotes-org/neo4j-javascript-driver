@@ -17,13 +17,12 @@
  * limitations under the License.
  */
 
-import { newError } from '../error'
-import { assertString } from './util'
-import Connection from '../connection'
-import { ACCESS_MODE_WRITE } from './constants'
-import { Bookmark } from './bookmark'
-import ConnectionProvider from '../connection-provider'
-import { Point } from '..'
+import { newError } from '../error.ts'
+import { assertString } from './util.ts'
+import Connection from '../connection.ts'
+import { ACCESS_MODE_WRITE } from './constants.ts'
+import { Bookmark } from './bookmark.ts'
+import ConnectionProvider from '../connection-provider.ts'
 
 /**
  * @private

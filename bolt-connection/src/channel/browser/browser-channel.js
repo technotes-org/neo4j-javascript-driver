@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import HeapBuffer from './browser-buf'
+import HeapBuffer from './browser-buf.js'
 import { newError, internal } from 'neo4j-driver-core'
 
 const {

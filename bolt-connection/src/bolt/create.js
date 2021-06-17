@@ -18,15 +18,15 @@
  */
 
 import { newError } from 'neo4j-driver-core'
-import BoltProtocolV1 from './bolt-protocol-v1'
-import BoltProtocolV2 from './bolt-protocol-v2'
-import BoltProtocolV3 from './bolt-protocol-v3'
-import BoltProtocolV4x0 from './bolt-protocol-v4x0'
-import BoltProtocolV4x1 from './bolt-protocol-v4x1'
-import BoltProtocolV4x2 from './bolt-protocol-v4x2'
-import BoltProtocolV4x3 from './bolt-protocol-v4x3'
-import { Chunker, Dechunker } from '../channel'
-import ResponseHandler from './response-handler'
+import BoltProtocolV1 from './bolt-protocol-v1.js'
+import BoltProtocolV2 from './bolt-protocol-v2.js'
+import BoltProtocolV3 from './bolt-protocol-v3.js'
+import BoltProtocolV4x0 from './bolt-protocol-v4x0.js'
+import BoltProtocolV4x1 from './bolt-protocol-v4x1.js'
+import BoltProtocolV4x2 from './bolt-protocol-v4x2.js'
+import BoltProtocolV4x3 from './bolt-protocol-v4x3.js'
+import { Chunker, Dechunker } from '../channel/index.js'
+import ResponseHandler from './response-handler.js'
 
 /**
  * Creates a protocol with a given version

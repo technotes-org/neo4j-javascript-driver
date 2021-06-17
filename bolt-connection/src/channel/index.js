@@ -1,4 +1,4 @@
-import ChannelConfig from './channel-config'
+import ChannelConfig from './channel-config.js'
 
 /**
  * Copyright (c) "Neo4j"
@@ -18,6 +18,6 @@ import ChannelConfig from './channel-config'
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-export * from './node'
-export * from './chunking'
-export { default as ChannelConfig } from './channel-config'
+export * from './browser/index.js'
+export * from './chunking.js'
+export { default as ChannelConfig } from './channel-config.js'

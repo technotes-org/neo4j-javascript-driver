@@ -17,9 +17,9 @@
  * limitations under the License.
  */
 
-import BaseBuffer from '../buf/base-buf'
-import { alloc } from './node'
-import CombinedBuffer from './combined-buf'
+import BaseBuffer from '../buf/base-buf.js'
+import { alloc } from './browser/index.js'
+import CombinedBuffer from './combined-buf.js'
 
 const _CHUNK_HEADER_SIZE = 2
 const _MESSAGE_BOUNDARY = 0x00

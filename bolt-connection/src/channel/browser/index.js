@@ -17,17 +17,17 @@
  * limitations under the License.
  */
 
-import HeapBuffer from './browser-buf'
-import WebSocketChannel from './browser-channel'
-import BrowserHosNameResolver from './browser-host-name-resolver'
-import utf8Codec from './browser-utf8'
+import HeapBuffer from './browser-buf.js'
+import WebSocketChannel from './browser-channel.js'
+import BrowserHosNameResolver from './browser-host-name-resolver.js'
+import utf8Codec from './browser-utf8.js'
 
 /*
 
 This module exports a set of components to be used in browser environment.
 They are not compatible with NodeJS environment.
 All files import/require APIs from `node/index.js` by default.
-Such imports are replaced at build time with `browser/index.js` when building a browser bundle.
+Such imports are replaced at build time with `browser/index.js` when building a browser bundle or Deno library.
 
 NOTE: exports in this module should have exactly the same names/structure as exports in `node/index.js`.
 

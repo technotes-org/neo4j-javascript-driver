@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import HeapBuffer from './browser-buf'
+import HeapBuffer from './browser-buf.js'
 import { TextEncoder, TextDecoder } from 'text-encoding-utf-8'
 
 const encoder = new TextEncoder('utf-8')

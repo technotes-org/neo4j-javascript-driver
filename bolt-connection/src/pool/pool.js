@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import PoolConfig from './pool-config'
+import PoolConfig from './pool-config.js'
 import { newError, internal } from 'neo4j-driver-core'
 
 const {

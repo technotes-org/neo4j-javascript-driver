@@ -17,15 +17,15 @@
  * limitations under the License.
  */
 
-import * as util from './internal/temporal-util'
-import { NumberOrInteger, StandardDate } from './graph-types'
+import * as util from './internal/temporal-util.ts'
+import { NumberOrInteger, StandardDate } from './graph-types.ts'
 import {
   assertNumberOrInteger,
   assertString,
   assertValidDate
-} from './internal/util'
-import { newError } from './error'
-import Integer, { int, toNumber } from './integer'
+} from './internal/util.ts'
+import { newError } from './error.ts'
+import Integer, { int, toNumber } from './integer.ts'
 
 const IDENTIFIER_PROPERTY_ATTRIBUTES = {
   value: true,
