@@ -66,6 +66,7 @@ import {
   driver as coreDriver,
   types as coreTypes
 } from 'neo4j-driver-core'
+// @deno-types="../../bolt-connection/types/index.d.ts"
 import {
   DirectConnectionProvider,
   RoutingConnectionProvider
@@ -302,7 +303,8 @@ function driver (
           authToken,
           address,
           userAgent: config.userAgent,
-          routingContext: parsedUrl.query
+          routingContext: parsedUrl.query,
+          routingTablePurgeDelay: undefined,
         })
     } else {
       if (!isEmptyObjectOrNull(parsedUrl.query)) {
@@ -389,7 +391,7 @@ const logging = {
     return {
       level: level,
       logger: (level: LogLevel, message: string) =>
-        console.log(`${global.Date.now()} ${level.toUpperCase()} ${message}`)
+        console.log(`${globalThis.Date.now()} ${level.toUpperCase()} ${message}`)
     }
   }
 }

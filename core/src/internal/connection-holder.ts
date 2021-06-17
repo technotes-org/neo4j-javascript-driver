@@ -176,7 +176,7 @@ class ConnectionHolder implements ConnectionHolderInterface {
    */
   private _releaseConnection(): Promise<Connection | void> {
     this._connectionPromise = this._connectionPromise
-      .then((connection?: Connection) => {
+      .then((connection?: Connection|void) => {
         if (connection) {
           return connection
             .resetAndFlush()

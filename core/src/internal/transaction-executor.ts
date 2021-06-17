@@ -36,7 +36,7 @@ export class TransactionExecutor {
   private _initialRetryDelayMs: number
   private _multiplier: number
   private _jitterFactor: number
-  private _inFlightTimeoutIds: NodeJS.Timeout[]
+  private _inFlightTimeoutIds: ReturnType<typeof setTimeout>[]
 
   constructor(
     maxRetryTimeMs?: number | null,
