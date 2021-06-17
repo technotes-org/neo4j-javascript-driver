@@ -379,8 +379,6 @@ function isPath(obj: object): boolean {
 }
 
 export {
-  StandardDate,
-  NumberOrInteger,
   Node,
   isNode,
   Relationship,
@@ -391,4 +389,8 @@ export {
   isPath,
   PathSegment,
   isPathSegment
+}
+export type {
+  StandardDate,
+  NumberOrInteger,
 }
