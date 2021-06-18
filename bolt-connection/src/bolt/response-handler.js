@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { newError, json } from 'neo4j-driver-core'
+import { newError, json } from '../../../core/src/index.ts'
 
 // Signature bytes for each response message type
 const SUCCESS = 0x70 // 0111 0000 // SUCCESS <metadata>

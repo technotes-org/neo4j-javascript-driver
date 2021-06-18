@@ -33,7 +33,7 @@ import {
   isTime,
   Time,
   internal
-} from 'neo4j-driver-core'
+} from '../../../core/src/index.ts'
 
 import {
   epochDayToDate,

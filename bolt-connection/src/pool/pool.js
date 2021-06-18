@@ -18,7 +18,7 @@
  */
 
 import PoolConfig from './pool-config.js'
-import { newError, internal } from 'neo4j-driver-core'
+import { newError, internal } from '../../../core/src/index.ts'
 
 const {
   logger: { Logger }

@@ -18,7 +18,7 @@
  */
 
 import { Chunker, Dechunker, ChannelConfig, Channel } from '../channel/index.js'
-import { newError, error, json, internal } from 'neo4j-driver-core'
+import { newError, error, json, internal } from '../../../core/src/index.ts'
 import Connection from './connection.js'
 import Bolt from '../bolt/index.js'
 

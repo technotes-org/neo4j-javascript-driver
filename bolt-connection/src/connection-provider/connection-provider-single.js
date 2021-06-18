@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { ConnectionProvider } from 'neo4j-driver-core'
+import { ConnectionProvider } from '../../../core/src/index.ts'
 
 export default class SingleConnectionProvider extends ConnectionProvider {
   constructor (connection) {

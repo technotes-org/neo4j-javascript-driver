@@ -19,7 +19,7 @@
 import BoltProtocolV4 from './bolt-protocol-v4x0.js'
 import RequestMessage from './request-message.js'
 import { LoginObserver } from './stream-observers.js'
-import { internal } from 'neo4j-driver-core'
+import { internal } from '../../../core/src/index.ts'
 
 const {
   constants: { BOLT_PROTOCOL_V4_1 }

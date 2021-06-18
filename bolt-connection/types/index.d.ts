@@ -18,7 +18,7 @@
  */
 import { 
   ConnectionProvider
-} from 'neo4j-driver-core'
+} from '../../core/src/index.ts'
 
 declare class DirectConnectionProvider extends ConnectionProvider {
   constructor(config: any)

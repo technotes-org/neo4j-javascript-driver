@@ -18,7 +18,7 @@
  */
 
 import { alloc } from '../channel/index.js'
-import { newError } from 'neo4j-driver-core'
+import { newError } from '../../../core/src/index.ts'
 
 const BOLT_MAGIC_PREAMBLE = 0x6060b017
 

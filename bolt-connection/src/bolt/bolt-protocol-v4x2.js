@@ -18,7 +18,7 @@
  */
 import BoltProtocolV41 from './bolt-protocol-v4x1.js'
 
-import { internal } from 'neo4j-driver-core'
+import { internal } from '../../../core/src/index.ts'
 
 const {
   constants: { BOLT_PROTOCOL_V4_2 }

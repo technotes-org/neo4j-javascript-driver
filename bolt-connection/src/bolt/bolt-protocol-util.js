@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { newError } from 'neo4j-driver-core'
+import { newError } from '../../../core/src/index.ts'
 import { ResultStreamObserver } from './stream-observers.js'
 
 /**

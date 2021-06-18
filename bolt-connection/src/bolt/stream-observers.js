@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { newError, error, Integer, Record, json, internal } from 'neo4j-driver-core'
+import { newError, error, Integer, Record, json, internal } from '../../../core/src/index.ts'
 import RawRoutingTable from './routing-table-raw.js'
 
 const {

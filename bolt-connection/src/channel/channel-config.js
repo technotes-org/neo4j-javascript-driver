@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { newError, error, internal } from 'neo4j-driver-core'
+import { newError, error, internal } from '../../../core/src/index.ts'
 
 const {
   util: { ENCRYPTION_OFF, ENCRYPTION_ON }

@@ -65,12 +65,12 @@ import {
   Connection,
   driver as coreDriver,
   types as coreTypes
-} from 'neo4j-driver-core'
+} from '../../core/src/index.ts'
 // @deno-types="../../bolt-connection/types/index.d.ts"
 import {
   DirectConnectionProvider,
   RoutingConnectionProvider
-} from 'neo4j-driver-bolt-connection'
+} from '../../bolt-connection/src/index.js'
 
 type AuthToken = coreTypes.AuthToken
 type Config = coreTypes.Config

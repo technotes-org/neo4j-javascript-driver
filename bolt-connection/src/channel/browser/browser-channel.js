@@ -18,7 +18,7 @@
  */
 
 import HeapBuffer from './browser-buf.js'
-import { newError, internal } from 'neo4j-driver-core'
+import { newError, internal } from '../../../../core/src/index.ts'
 
 const {
   util: { ENCRYPTION_OFF, ENCRYPTION_ON }

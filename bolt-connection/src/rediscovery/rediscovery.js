@@ -18,7 +18,7 @@
  */
 import RoutingTable from './routing-table.js'
 import { RawRoutingTable } from '../bolt/index.js'
-import { newError, error, Session } from 'neo4j-driver-core'
+import { newError, error, Session } from '../../../core/src/index.ts'
 
 const { SERVICE_UNAVAILABLE } = error
 const PROCEDURE_NOT_FOUND_CODE = 'Neo.ClientError.Procedure.ProcedureNotFound'

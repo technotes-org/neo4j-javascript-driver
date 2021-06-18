@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { newError, error, int, Session, internal } from 'neo4j-driver-core'
+import { newError, error, int, Session, internal } from '../../../core/src/index.ts'
 import Rediscovery, { RoutingTable } from '../rediscovery/index.js'
 import { HostNameResolver } from '../channel/index.js'
 import SingleConnectionProvider from './connection-provider-single.js'

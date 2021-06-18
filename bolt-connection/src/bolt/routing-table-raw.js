@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import Record from 'neo4j-driver-core'
+import Record from '../../../core/src/index.ts'
 
 /**
  * Represente the raw version of the routing table

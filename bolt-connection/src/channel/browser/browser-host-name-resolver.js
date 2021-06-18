@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { internal } from 'neo4j-driver-core'
+import { internal } from '../../../../core/src/index.ts'
 
 const {
   resolver: { BaseHostNameResolver }

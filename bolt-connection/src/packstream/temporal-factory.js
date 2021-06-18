@@ -22,7 +22,7 @@ import {
   LocalDateTime,
   LocalTime,
   internal
-} from 'neo4j-driver-core'
+} from '../../../core/src/index.ts'
 const {
   temporalUtil: {
     DAYS_0000_TO_1970,

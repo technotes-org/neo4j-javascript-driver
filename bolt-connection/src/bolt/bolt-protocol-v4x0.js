@@ -23,7 +23,7 @@ import {
   ProcedureRouteObserver
 } from './stream-observers.js'
 
-import { internal } from 'neo4j-driver-core'
+import { internal } from '../../../core/src/index.ts'
 
 const {
   bookmark: { Bookmark },

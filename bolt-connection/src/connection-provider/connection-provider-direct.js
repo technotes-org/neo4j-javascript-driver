@@ -23,7 +23,7 @@ import {
   DelegateConnection,
   ConnectionErrorHandler
 } from '../connection/index.js'
-import { internal, error } from 'neo4j-driver-core'
+import { internal, error } from '../../../core/src/index.ts'
 
 const {
   constants: { BOLT_PROTOCOL_V4_0, BOLT_PROTOCOL_V3 }

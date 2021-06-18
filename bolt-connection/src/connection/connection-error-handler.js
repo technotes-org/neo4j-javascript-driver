@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { error } from 'neo4j-driver-core'
+import { error } from '../../../core/src/index.ts'
 
 const { SERVICE_UNAVAILABLE, SESSION_EXPIRED } = error
 

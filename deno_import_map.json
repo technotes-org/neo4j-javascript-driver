@@ -1,8 +1,0 @@
-{
-    "imports": {
-      "neo4j-driver-lite": "./neo4j-driver-lite/src/index.ts",
-      "neo4j-driver-core": "./core/src/index.ts",
-      "neo4j-driver-bolt-connection": "./bolt-connection/src/index.js",
-      "text-encoding-utf-8": "https://raw.githubusercontent.com/arv/text-encoding-utf-8/17484662e1e6881accbd69d5e51f3587c901311e/src/encoding.js"
-    }
-}

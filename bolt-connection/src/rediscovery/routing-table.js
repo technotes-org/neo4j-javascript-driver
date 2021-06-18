@@ -23,7 +23,7 @@ import {
   int,
   internal,
   json
-} from 'neo4j-driver-core'
+} from '../../../core/src/index.ts'
 
 const {
   constants: { ACCESS_MODE_WRITE: WRITE, ACCESS_MODE_READ: READ },

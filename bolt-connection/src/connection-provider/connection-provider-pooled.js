@@ -19,7 +19,7 @@
 
 import { createChannelConnection, ConnectionErrorHandler } from '../connection/index.js'
 import Pool, { PoolConfig } from '../pool/index.js'
-import { error, ConnectionProvider } from 'neo4j-driver-core'
+import { error, ConnectionProvider } from '../../../core/src/index.ts'
 
 const { SERVICE_UNAVAILABLE } = error
 export default class PooledConnectionProvider extends ConnectionProvider {

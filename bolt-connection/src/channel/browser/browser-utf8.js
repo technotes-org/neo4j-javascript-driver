@@ -18,7 +18,7 @@
  */
 
 import HeapBuffer from './browser-buf.js'
-import { TextEncoder, TextDecoder } from 'text-encoding-utf-8'
+import { TextEncoder, TextDecoder } from "https://raw.githubusercontent.com/arv/text-encoding-utf-8/17484662e1e6881accbd69d5e51f3587c901311e/src/encoding.js"
 
 const encoder = new TextEncoder('utf-8')
 const decoder = new TextDecoder('utf-8')

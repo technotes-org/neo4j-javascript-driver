@@ -28,7 +28,7 @@ import {
   PathSegment,
   Relationship,
   UnboundRelationship
-} from 'neo4j-driver-core'
+} from '../../../core/src/index.ts'
 
 const { PROTOCOL_ERROR } = error
 

@@ -20,7 +20,7 @@ import BoltProtocolV42 from './bolt-protocol-v4x2.js'
 import RequestMessage from './request-message.js'
 import { RouteObserver } from './stream-observers.js'
 
-import { internal } from 'neo4j-driver-core'
+import { internal } from '../../../core/src/index.ts'
 
 const {
   bookmark: { Bookmark },

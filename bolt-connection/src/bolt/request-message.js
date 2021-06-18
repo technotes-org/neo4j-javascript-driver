@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-import { int, internal, json } from 'neo4j-driver-core'
+import { int, internal, json } from '../../../core/src/index.ts'
 
 const {
   constants: { ACCESS_MODE_READ, FETCH_ALL },
