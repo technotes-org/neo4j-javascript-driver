@@ -180,7 +180,7 @@ class Record<
     const obj: Entries = {} as Entries
 
     for (const [key, value] of this.entries()) {
-      obj[key as any] = value
+      (obj as any)[key] = value
     }
 
     return obj
