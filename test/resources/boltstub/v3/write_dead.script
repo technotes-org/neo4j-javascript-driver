@@ -1,7 +1,0 @@
-!: BOLT 3
-!: AUTO HELLO
-!: AUTO RESET
-
-C: RUN "CREATE ()" {} {}
-C: PULL_ALL
-S: <EXIT>

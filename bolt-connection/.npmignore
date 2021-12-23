@@ -1,7 +1,0 @@
-docs/
-src/
-build/
-test/
-lib6/
-.gitignore
-node_modules/
